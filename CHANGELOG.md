@@ -2,6 +2,175 @@
 
 <!--next-version-placeholder-->
 
+## v4.2.9 (2024-05-23)
+
+### Fix
+
+* **deps:** Update dependency transformers to v4.41.1 ([#1183](https://github.com/voicepaw/so-vits-svc-fork/issues/1183)) ([`42c69fd`](https://github.com/voicepaw/so-vits-svc-fork/commit/42c69fd48146f6b43f9dbfac53339ad573d61acd))
+
+## v4.2.8 (2024-05-22)
+
+### Fix
+
+* **deps:** Update dependency lightning to v2.2.5 ([#1182](https://github.com/voicepaw/so-vits-svc-fork/issues/1182)) ([`6a457dc`](https://github.com/voicepaw/so-vits-svc-fork/commit/6a457dc4996220cebe0ce54d7f116873f1cf94f3))
+
+## v4.2.7 (2024-05-22)
+
+### Fix
+
+* **deps:** Update dependency requests to v2.32.2 ([#1178](https://github.com/voicepaw/so-vits-svc-fork/issues/1178)) ([`28e1be1`](https://github.com/voicepaw/so-vits-svc-fork/commit/28e1be1ef191badbe314cf232e932646fd6811d1))
+
+## v4.2.6 (2024-05-18)
+
+### Fix
+
+* **deps:** Update dependency transformers to v4.41.0 ([#1175](https://github.com/voicepaw/so-vits-svc-fork/issues/1175)) ([`9d20b50`](https://github.com/voicepaw/so-vits-svc-fork/commit/9d20b509e210d20cb7005a58c6408830522b94cf))
+
+## v4.2.5 (2024-05-16)
+
+### Fix
+
+* **deps:** Update dependency matplotlib to v3.9.0 ([#1174](https://github.com/voicepaw/so-vits-svc-fork/issues/1174)) ([`ed95519`](https://github.com/voicepaw/so-vits-svc-fork/commit/ed9551956bbae36164f9404bad87ac78d7a326c5))
+
+## v4.2.4 (2024-05-16)
+
+### Fix
+
+* **deps:** Update dependency tqdm-joblib to ^0.0.4 ([#1172](https://github.com/voicepaw/so-vits-svc-fork/issues/1172)) ([`06ea73c`](https://github.com/voicepaw/so-vits-svc-fork/commit/06ea73cd3a82cc058df5b5973aa6edf97d4d708e))
+
+## v4.2.3 (2024-05-10)
+
+### Fix
+
+* **deps:** Update dependency fastapi to v0.111.0 ([#1161](https://github.com/voicepaw/so-vits-svc-fork/issues/1161)) ([`ee70d52`](https://github.com/voicepaw/so-vits-svc-fork/commit/ee70d522ab1943513517d5068e17c1e5578b09ce))
+
+## v4.2.2 (2024-05-10)
+
+### Fix
+
+* **gui:** Fix format selection for the input audio in non-Windows ([#1159](https://github.com/voicepaw/so-vits-svc-fork/issues/1159)) ([`8168cb4`](https://github.com/voicepaw/so-vits-svc-fork/commit/8168cb404648c23e3ac5f3d2418bf38a606710e4))
+
+## v4.2.1 (2024-05-10)
+
+### Fix
+
+* **deps:** Support Python 3.12, end support for Python 3.8, explicitly specify click as a dependency, update deps ([#1165](https://github.com/voicepaw/so-vits-svc-fork/issues/1165)) ([`a7ceffa`](https://github.com/voicepaw/so-vits-svc-fork/commit/a7ceffa57566082f2a4ce9842be236505681d629))
+
+## v4.2.0 (2024-04-11)
+
+### Feature
+
+* **pre-sd:** Add leading zeros for 4-digit width of the output file name's numeric part #1154 ([#1155](https://github.com/voicepaw/so-vits-svc-fork/issues/1155)) ([`41b147f`](https://github.com/voicepaw/so-vits-svc-fork/commit/41b147f6c20873fc1cfeaae50d27b7b80d5fdeb6))
+
+### Fix
+
+* **pre-sd:** Set speaker-diarization version to 3.1 for pyannote.audio 3.1.1 compatibility ([#1157](https://github.com/voicepaw/so-vits-svc-fork/issues/1157)) ([`9bd3089`](https://github.com/voicepaw/so-vits-svc-fork/commit/9bd3089d87be0c4e7bd0fbed51c06c203ad55474))
+
+### Documentation
+
+* Add annagorshunova as a contributor for bug, and code ([#1158](https://github.com/voicepaw/so-vits-svc-fork/issues/1158)) ([`50f6d79`](https://github.com/voicepaw/so-vits-svc-fork/commit/50f6d79f81d443c3dea9a4de3c65dca6988080ac))
+
+## v4.1.61 (2024-04-06)
+
+### Fix
+
+* **deps:** Update dependency fastapi to v0.110.1 ([#1144](https://github.com/voicepaw/so-vits-svc-fork/issues/1144)) ([`eab647c`](https://github.com/voicepaw/so-vits-svc-fork/commit/eab647c8e21b954aa082b8319f084ae080105180))
+
+### Documentation
+
+* Add Priyanshu-hawk as a contributor for code ([#1148](https://github.com/voicepaw/so-vits-svc-fork/issues/1148)) ([`d6888db`](https://github.com/voicepaw/so-vits-svc-fork/commit/d6888db4204f87b7075d41371edf08c050179912))
+* Add marcellocirelli as a contributor for bug ([#1147](https://github.com/voicepaw/so-vits-svc-fork/issues/1147)) ([`8795709`](https://github.com/voicepaw/so-vits-svc-fork/commit/879570933831cdee3f325c94fc5b4e3fd172990f))
+
+## v4.1.60 (2024-04-06)
+
+### Fix
+
+* **deps:** Disallow pysimplegui>=5, update deps, update PyTorch urls in README.md ([#1142](https://github.com/voicepaw/so-vits-svc-fork/issues/1142)) ([`c0c5376`](https://github.com/voicepaw/so-vits-svc-fork/commit/c0c537639c72455328f98d147c06bd8f86030399))
+
+### Documentation
+
+* **readme:** Add description of repository maintenance status ([#1143](https://github.com/voicepaw/so-vits-svc-fork/issues/1143)) ([`3f537b0`](https://github.com/voicepaw/so-vits-svc-fork/commit/3f537b0919c0e651297c190ede9eb3c03782f319))
+* Add SamuelSwartzberg as a contributor for security ([#1146](https://github.com/voicepaw/so-vits-svc-fork/issues/1146)) ([`cddb722`](https://github.com/voicepaw/so-vits-svc-fork/commit/cddb72236f00d00a566a27a0243b71abbd615c64))
+* Add 4ll0w3v1l as a contributor for code ([#1141](https://github.com/voicepaw/so-vits-svc-fork/issues/1141)) ([`df699c7`](https://github.com/voicepaw/so-vits-svc-fork/commit/df699c7284149f79238b783f530d058b2a272447))
+
+## v4.1.59 (2024-04-06)
+
+### Fix
+
+* **pqmf:** Fix broken  scipy imports in _pqmf.py ([#1139](https://github.com/voicepaw/so-vits-svc-fork/issues/1139)) ([`b7639ca`](https://github.com/voicepaw/so-vits-svc-fork/commit/b7639ca3a2b283f371a14ce176fe5d0e1d74581e))
+
+## v4.1.58 (2024-03-25)
+
+### Fix
+
+* **deps:** Update dependency transformers to v4.39.1 ([#1132](https://github.com/voicepaw/so-vits-svc-fork/issues/1132)) ([`a274333`](https://github.com/voicepaw/so-vits-svc-fork/commit/a274333e764ea56aa099033de24279619b4f2210))
+
+## v4.1.57 (2024-03-25)
+
+### Fix
+
+* **deps:** Update dependency pebble to v5.0.7 ([#1130](https://github.com/voicepaw/so-vits-svc-fork/issues/1130)) ([`e14b62f`](https://github.com/voicepaw/so-vits-svc-fork/commit/e14b62f11f8ed245a05c663381b086e92f76f2c6))
+
+## v4.1.56 (2024-03-05)
+
+### Fix
+
+* **deps:** Update dependency lightning to v2.2.1 ([#1115](https://github.com/voicepaw/so-vits-svc-fork/issues/1115)) ([`a84d26b`](https://github.com/voicepaw/so-vits-svc-fork/commit/a84d26ba6614c3cf1ca3415ee5131e77867f5d10))
+
+## v4.1.55 (2024-03-04)
+
+### Fix
+
+* **deps:** Update dependency onnxsim to v0.4.36 ([#1113](https://github.com/voicepaw/so-vits-svc-fork/issues/1113)) ([`12761e8`](https://github.com/voicepaw/so-vits-svc-fork/commit/12761e8989f43864b9f35f1dc144f5bc4dea1ac0))
+
+## v4.1.54 (2024-03-03)
+
+### Fix
+
+* **deps:** Update dependency transformers to v4.38.2 ([#1111](https://github.com/voicepaw/so-vits-svc-fork/issues/1111)) ([`cfc4edb`](https://github.com/voicepaw/so-vits-svc-fork/commit/cfc4edb570d5381f044cc9db51f291744c118f87))
+
+## v4.1.53 (2024-02-28)
+
+### Fix
+
+* **deps:** Update dependency rich to v13.7.1 ([#1108](https://github.com/voicepaw/so-vits-svc-fork/issues/1108)) ([`21f33d6`](https://github.com/voicepaw/so-vits-svc-fork/commit/21f33d6494f09b62e2b97ceb356be7d6fa6560bc))
+
+## v4.1.52 (2024-02-25)
+
+### Fix
+
+* **deps:** Update dependency fastapi to v0.110.0 ([#1102](https://github.com/voicepaw/so-vits-svc-fork/issues/1102)) ([`29fc759`](https://github.com/voicepaw/so-vits-svc-fork/commit/29fc7592dae3a16c310a159ebe94df5f64ac2271))
+
+## v4.1.51 (2024-02-23)
+
+### Fix
+
+* **deps:** Update dependency torch to v2.2.1 ([#1098](https://github.com/voicepaw/so-vits-svc-fork/issues/1098)) ([`bbc73c1`](https://github.com/voicepaw/so-vits-svc-fork/commit/bbc73c1b15608a8d4b1cf564ac2183044a94bdc6))
+
+## v4.1.50 (2024-02-22)
+
+### Fix
+
+* **deps:** Update dependency transformers to v4.38.1 ([#1097](https://github.com/voicepaw/so-vits-svc-fork/issues/1097)) ([`c90cfee`](https://github.com/voicepaw/so-vits-svc-fork/commit/c90cfee4dbcd29f6fd54193d506232c4a1ab0fe7))
+
+## v4.1.49 (2024-02-21)
+
+### Fix
+
+* **deps:** Update dependency transformers to v4.38.0 ([#1096](https://github.com/voicepaw/so-vits-svc-fork/issues/1096)) ([`4dec304`](https://github.com/voicepaw/so-vits-svc-fork/commit/4dec3048ed3fd208ed9b24dfe2e17338adcc8253))
+
+## v4.1.48 (2024-02-16)
+
+### Fix
+
+* **deps:** Update dependency matplotlib to v3.8.3 ([#1092](https://github.com/voicepaw/so-vits-svc-fork/issues/1092)) ([`e8eab7f`](https://github.com/voicepaw/so-vits-svc-fork/commit/e8eab7f9fc47c1ddc7c2753705abfdbafbc53f69))
+
+## v4.1.47 (2024-02-10)
+
+### Fix
+
+* **deps:** Update dependency tqdm to v4.66.2 ([#1088](https://github.com/voicepaw/so-vits-svc-fork/issues/1088)) ([`4516483`](https://github.com/voicepaw/so-vits-svc-fork/commit/451648353d5d473dfa058d75ce4953db67422506))
+
 ## v4.1.46 (2024-02-08)
 
 ### Fix
